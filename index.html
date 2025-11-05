@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect Page with Multiple Logos</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .logo:hover {
+      transform: scale(1.1);
+    }
+
+    h2 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>Click on the logos to visit their pages</h2>
+    <!-- Instagram Logo -->
+    <a href="https://www.instagram.com" target="_blank">
+      <img class="logo" src="images/instagram-logo.png" alt="Instagram Logo">
+    </a>
+    <!-- Twitter Logo -->
+    <a href="https://www.twitter.com" target="_blank">
+      <img class="logo" src="images/twitter-logo.png" alt="Twitter Logo">
+    </a>
+  </div>
+</body>
+</html>
